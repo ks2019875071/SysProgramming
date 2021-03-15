@@ -1,0 +1,80 @@
+Script started on 2021-03-15 17:33:38+0900
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ date
+Mon Mar 15 17:33:59 KST 2021
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ ls -l
+total 12
+-rw-r--r-- 1 seye seye    0 Mar 15 17:33  0315
+-rw-r--r-- 1 seye seye 9664 Mar 15 17:33 'cript 0315'
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ mkdir choi
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ mkdir chang
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ ls
+ 0315   [0m[01;34mchang[0m   [01;34mchoi[0m  'cript 0315'
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ 
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ cd choi
+]0;seye@DESKTOP-7HE9Q9C: ~/choi[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/choi[00m$ mkdir cs101
+]0;seye@DESKTOP-7HE9Q9C: ~/choi[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/choi[00m$ cd ..
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ cd chang
+]0;seye@DESKTOP-7HE9Q9C: ~/chang[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/chang[00m$ mkdir doc
+]0;seye@DESKTOP-7HE9Q9C: ~/chang[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/chang[00m$ mkdir test
+]0;seye@DESKTOP-7HE9Q9C: ~/chang[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/chang[00m$ cd test
+]0;seye@DESKTOP-7HE9Q9C: ~/chang/test[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/chang/test[00m$ cat > csi[K1.txt
+Sampe example text file4 
+]0;seye@DESKTOP-7HE9Q9C: ~/chang/test[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/chang/test[00m$ ls
+cs1.txt
+]0;seye@DESKTOP-7HE9Q9C: ~/chang/test[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~/chang/test[00m$ cd ~
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ ls
+ 0315   [0m[01;34mchang[0m   [01;34mchoi[0m  'cript 0315'
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ cat 0315
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ ls
+ 0315   [0m[01;34mchang[0m   [01;34mchoi[0m  'cript 0315'
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ del chang
+
+Command 'del' not found, did you mean:
+
+  command 'mdel' from deb mtools
+  command 'wdel' from deb wput
+  command 'tel' from deb orville-write
+  command 'qdel' from deb gridengine-client
+  command 'qdel' from deb slurm-wlm-torque
+  command 'dep' from deb go-dep
+  command 'dll' from deb brickos
+  command 'hdel' from deb hfsutils
+  command 'delp' from deb fp-utils-3.0.4
+  command 'dex' from deb dex
+  command 'deal' from deb deal
+  command 'delv' from deb dnsutils
+  command 'bel' from deb belier
+  command 'el' from deb oneliner-el
+
+Try: sudo apt install <deb name>
+
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ del choi
+
+Command 'del' not found, did you mean:
+
+  command 'dll' from deb brickos
+  command 'delp' from deb fp-utils-3.0.4
+  command 'mdel' from deb mtools
+  command 'bel' from deb belier
+  command 'dex' from deb dex
+  command 'dep' from deb go-dep
+  command 'hdel' from deb hfsutils
+  command 'qdel' from deb gridengine-client
+  command 'qdel' from deb slurm-wlm-torque
+  command 'delv' from deb dnsutils
+  command 'wdel' from deb wput
+  command 'deal' from deb deal
+  command 'tel' from deb orville-write
+  command 'el' from deb oneliner-el
+
+Try: sudo apt install <deb name>
+
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ ls
+ 0315   [0m[01;34mchang[0m   [01;34mchoi[0m  'cript 0315'
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ 그r[K[Krm choi
+rm: cannot remove 'choi': Is a directory
+]0;seye@DESKTOP-7HE9Q9C: ~[01;32mseye@DESKTOP-7HE9Q9C[00m:[01;34m~[00m$ rm [K[K[Kcd chang
+]0;seye@DESKTOP-7HE9Q9C: ~/chang[01;32mseye@DESKTO
